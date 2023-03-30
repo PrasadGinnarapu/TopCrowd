@@ -21,8 +21,3 @@ def in_place_merge(array_1,array_2):
     array_1.sort()
     return f"X = {[int(i) for i in array_1[:len_x]]} \nY = {[int(i) for i in array_1[len_x:]]}"
 print(in_place_merge(input("Enter array_1: ").split(" "),input("Enter array_2: ").split(" ")))
-
-
-
-
-
